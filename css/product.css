@@ -1,0 +1,150 @@
+/*Start product view content*/
+#view{
+  margin-top: 10px;
+}
+.product-view{
+  height: 700px;
+  width: 100%;
+  margin: auto ;
+  margin-bottom: 30px;
+}
+.product-prasantation{
+  display: flex;
+
+  height: 100%;
+}
+.product-image{
+  flex: 2;
+  position: relative;
+}
+.product-image img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.selections-box{
+  flex: 1.5;
+}
+/*Title section */
+.product-name{
+  height: 18%;
+  width: 95%;
+  border-bottom:2px solid  rgba(0, 3, 0, 0.18);
+  font-family: 'Days One', sans-serif;
+  margin-left: 5%;
+  position: relative;
+}
+.title{
+  text-transform: capitalize;
+  font-size: 30px;
+  color:black ;
+}
+.price{
+  bottom: 10px;
+  position: absolute;
+    font-size: 20px;
+}
+.wish{
+  bottom: 10px;
+  right: 40% ;
+  position: absolute;
+  font-size: 15px;
+}
+.wish a{
+  text-decoration: none;
+  border: 2px solid  rgba(0, 3, 0, 0.18);
+  padding: 5px 30px ;
+  display: block;
+  border-radius: 4px;
+  font-family: 'Belleza', sans-serif;
+  color: rgba(24, 101, 94, 0.9);
+}
+.product-disc{
+  margin-left: 5%;
+  height: 45%;
+  width: 95%;
+  position: relative;
+}
+.d-title{
+  position: absolute;
+  top: 4%;
+  text-transform: uppercase;
+  font-family: 'Days One', sans-serif;
+}
+.discription{
+  position: absolute;
+  top: 15%;
+  font-family: 'Belleza', sans-serif;
+  font-size: 18px;
+
+}
+.selection-bar{
+  display: flex;
+  margin-left: 5%;
+  height: 8%;
+  width: 95%;
+  justify-content: space-around;
+}
+.sizeinfo{
+  width: 48%;
+  border: 2px solid rgba(24, 101, 94);
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+}
+.colorinfo{
+
+  width: 48%;
+  border: 2px solid rgba(24, 101, 94);
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+}
+.addcart-bar{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  height:8%;
+  width: 95%;
+}
+.quantity{
+  width: 30%;
+  margin-left: 1%;
+}
+.addcart{
+  width: 67%;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: linear-gradient(55deg,#27A47C,#6FE594,#27A47C);
+  box-shadow: 8px 4px 8px 4px rgba(24, 101, 94, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Days One', sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+}
+.addcart p{
+    text-shadow: -5px 4px 9px rgba(164,147,147,0.6);
+    text-transform: uppercase;
+    color: rgba(24, 101, 94, 0.9);
+}
+input[type="number"]{
+  height: 95%;
+  padding: 0px 20px;
+  background: none;
+  border: 2px solid rgba(24, 101, 94);
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+  border-radius: 4px;
+  font-family: 'Days One', sans-serif;
+  font-size: 20px;
+  color: rgba(24, 101, 94, 0.9);
+  outline: none;
+}
+/*Category*/
+#ct{
+  margin: auto;
+}
+.Category{
+  margin-top: 5%;
+  height: 400px;
+  width: 80%;
+
+}

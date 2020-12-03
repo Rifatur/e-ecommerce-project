@@ -1,0 +1,138 @@
+.loginarea{
+  height: 700px;
+  width: 600px;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  align-items: center;
+  background:linear-gradient(45deg,#DAE7F0,#FADAE7);
+}
+
+.login-box{
+  height: 500px;
+  width: 500px;
+}
+
+.input-filter{
+    position:relative;
+    height:40px;
+    width:100%;
+}
+.input-filter label{
+  font-family: 'Allerta Stencil', sans-serif;
+
+}
+.label{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: -14px;
+}
+.input-filter:nth-child(2){
+  margin-top: 40px;
+}
+.input-filter:nth-child(3){
+  margin-top: 40px;
+}
+.input-filter:nth-child(4){
+  margin-top: 40px;
+}
+.input-filter:nth-child(5){
+  margin-top: 40px;
+}
+.input-filter:nth-child(6){
+  margin-top: 50px;
+}
+.input-filter:nth-child(7){
+  margin-top: 50px;
+}
+.input-filter:nth-child(8){
+  margin-top: 50px;
+}
+.input-filter:nth-child(9){
+  margin-top: 50px;
+}
+.input-filter:nth-child(10){
+  margin-top: 50px;
+}
+  .input-filter input[type="text"]{
+    position:absolute;
+    background:none;
+    box-shadow:none;
+    font-size:17px;
+    width:100%;
+    border:none;
+    height:40px;
+    outline:none;
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+  .input-filter input[type="submit"]{
+  width: 100%;
+  padding: 10px;
+  background-image: linear-gradient(to right top, #96616b, #7f5c75, #625a75, #48566c, #37505c);
+  border:none;
+  outline:none;
+  border-radius: 5px;
+  color: mix(#96616b, $muted-color, 60%);
+  box-shadow: 0 7px 14px rgba(0, 20, 0, 0.18), 0 5px 5px rgba(0, 20, 0, 0.12);
+  color:#000340 ;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Allerta Stencil', sans-serif;
+
+}
+.input-filter input[type="submit"]:hover{
+  transform:translateY(-2px);
+}
+
+.input-filter label{
+position: absolute;
+top:0;
+left:0;
+padding:10px 0px 0px 0px;;
+color:#96616b;
+pointer-events:none;
+display:block;
+transition:0.5s;
+}
+.input-filter input[type="text"]:focus + label,
+.input-filter input[type="text"]:valid + label
+{
+transform:translateY(-35px);
+frot-Size:14px;
+color:#113537;
+background:#96616B;
+padding:4px 12px;
+border-radius: 5px;
+color: mix(#EC68B1, $muted-color, 30%);
+box-shadow: 0 7px 14px rgba(0, 20, 0, 0.18), 0 5px 5px rgba(0, 20, 0, 0.12);
+}
+
+.input-filter span{
+position:absolute;
+bottom:0;
+right:0;
+display:block;
+background-image: linear-gradient(to right top, #96616b, #7f5c75, #625a75, #48566c, #37505c);
+width:100%;
+height:2px;
+}
+.input-filter span::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+background: #051937;
+width:100%;
+height:100%;
+transform: scaleX(0);
+transform-origin: right;
+transition: transform 0.5 ease-in-out;
+}
+.input-filter input[type="text"]:focus ~ span:before,
+.input-filter input[type="text"]:valid ~ span:before
+{
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5 ease-in-out;
+}

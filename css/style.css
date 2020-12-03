@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Prompt');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+*,html{
+  margin: 0;
+  padding: 0;
+}
+header{
+height:150px;
+width: 100%;
+background:linear-gradient(45deg,#9AD3DE,#93B8C0);
+position: relative;
+}
+.top-header-col{
+  height: 40px;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+.top-mid-col{
+  width: 80%;
+  height:65px;
+  display: flex;
+  position: absolute;
+  left: 10%;
+  bottom: 45%;
+}
+
+#welcome{
+  font-size: 12px;
+  top: 35%;
+  position: absolute;
+  font-family: 'Aldrich', sans-serif;
+
+}
+.logo-name{
+  font-size: 45px;
+  top: 2%;
+  left: 35%;
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Allerta Stencil', sans-serif;
+
+}
+.search-col{
+  right:0;
+  top: 25%;
+  position: absolute;
+}
+.search-col>input[type='text']{
+  background: none;
+  border:2px solid #113537;
+  outline: none;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0 10px;
+  width: 300px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #113537;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #113537;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #113537;
+}
+
+.nav-content{
+  width: 80%;
+  height:60px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  background:linear-gradient(45deg,#9AD3DE,#93B8C0);
+  -webkit-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+	box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+}
+.nav-col-1{
+  flex: 3;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+}
+
+
+.nav-col-2{
+  flex: 1;
+
+}
+.nav-col-1  li{
+  list-style: none;
+  display: inline-block;
+}
+.nav-col-1  li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 18px 20px;
+  font-size: 20px;
+  font-family: 'Aldrich', sans-serif;
+  text-transform: capitalize;
+}
+.nav-col-1 li a:hover{
+  background:linear-gradient(45deg,#47AEA3,#08B1C5);
+  -webkit-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+}
+.nav-col-2 a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 16.5px 10px;
+  font-size: 20px;
+  font-family: 'Aldrich', sans-serif;
+  text-transform: uppercase;
+
+}
+.nav-col-2 a:nth-child(1){
+  color:#F1467A;
+}
+.nav-col-2 a:nth-child(1):hover{
+  color: #113537;
+}
+.nav-col-2 a:nth-child(3){
+  background:linear-gradient(45deg,#47AEA3,#08B1C5);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+/* main*/
+main{
+  width: 80%;
+  margin: auto;
+}
+/*Slider Content*/
+.sliderContent{
+    height: 600px;
+    width: 100%;
+
+    position: relative;
+}
+.sliderContent img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.product-container{
+    width: 100%;
+
+}
+.container-header{
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(to right top, #0d354f, #00445a, #00525d, #005f57, #0c6b4a);
+}
+.product-content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom:25px;
+}
+.product-presentation{
+    width:246px;
+    height: 350px;
+    border: 5px solid linear-gradient(to right top, #0d354f, #00445a, #00525d, #005f57, #0c6b4a);;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: mix(#EC68B1, $muted-color, 30%);
+    box-shadow: 0 7px 14px rgba(0, 20, 0, 0.18), 0 5px 5px rgba(0, 20, 0, 0.12);
+}
+.header-presentation{
+  height: 60%;
+  width: 100%;
+
+}
+.bottom-presentation{
+      width: 100%;
+      height: 38%;
+
+      margin-top: 3%;
+      position: relative;
+}
+.product-title{
+    height: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: center;
+}
+.product-title a{
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size: 19px;
+   font-family: 'Aldrich', sans-serif;
+
+}
+.product-price{
+  height: 15%;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 8%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.product-price span{
+    margin-left: 10px;
+    font-size: 19px;
+    font-family: 'Aldrich', sans-serif;
+}
+.product-price span:nth-child(2){
+  margin-right: 10px;
+  color: Green;
+  font-size: 15px;
+}
+
+.product-widget{
+width: 100%;
+display: flex;
+height: 23%;
+margin-top: 10px;
+justify-content: space-between;
+bottom: 0;
+position: absolute;
+}
+.Cart-btn{
+    margin-top: 11px;
+}
+.Cart-btn a{
+  text-decoration: none;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius:25px 0 25px 0;
+  background: linear-gradient(45deg,#B6C1D4,#EC68B1);
+  color: mix(#EC68B1, $muted-color, 30%);
+  box-shadow: 0 7px 14px rgba(0, 20, 0, 0.18), 0 5px 5px rgba(0, 20, 0, 0.12);
+}
+.view-btn{
+    margin-top: 11px;
+    position: relative;
+}
+
+.view-btn a{
+  text-decoration: none;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius:0 25px 0 25px;
+  background-image: linear-gradient(to right top, #e3da1a, #a8cb31, #73b845, #42a354, #018c5c);
+  color: mix(#EC68B1, $muted-color, 30%);
+  box-shadow: 0 7px 14px rgba(0, 20, 0, 0.18), 0 5px 5px rgba(0, 20, 0, 0.12);
+}
+
+
+footer{
+  height: 250px;
+  width: 100%;
+background-image: linear-gradient(to left top, #96616b, #7f5c75, #625a75, #48566c, #37505c);
+
+}
+/* END HEADER SECTON  */

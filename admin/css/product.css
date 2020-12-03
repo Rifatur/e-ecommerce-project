@@ -1,0 +1,365 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Prompt');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+.navOptions{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.link{
+  height:100%;
+  margin-left: 10px;
+}
+.link:nth-child(1){background: linear-gradient(45deg,#ABE5E6,#7062F0);}
+.link:nth-child(2){background: linear-gradient(45deg,#F32F8E,#B236D0)}
+.link:nth-child(3){background: linear-gradient(45deg,#FD5A49,#FDDC98);}
+.link a{
+  text-decoration: none;
+  display: block;
+  padding: 0px 20px;
+  font-size:18px;
+  text-transform: uppercase;
+  font-family: 'Jockey One', sans-serif;
+  color: black;
+  -webkit-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+}
+.QuesDisplayContent{
+  width: 98%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+/*Start  table  content*/
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+#table{
+  overflow: hidden;
+}
+
+#table thead tr{
+   background:-webkit-linear-gradient(45deg,rgb(25, 80, 80),  rgb(10,143,104)) ;
+}
+#table th{
+  padding: 10px;
+  text-align: center;
+  font-family: 'Jockey One', sans-serif;
+  color: #ddd;
+  text-transform: capitalize;
+  color: rgba(2, 00, 10, .68);
+   -webkit-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+}
+
+ #table td{
+  padding: 8px;
+
+  text-align: center;
+  color: green;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+}
+#table tr{
+     -webkit-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+}
+
+ #table a{
+  font-family: 'Jockey One', sans-serif;
+ background: linear-gradient(45deg,#30496B,#30B8D2);
+ border: none;
+ width: 100px;
+ padding: 3px 10px;
+ border-radius: 3px;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ text-decoration: none;
+ outline: none;
+ font-size: 15px;
+ cursor: pointer;
+ color: mix(black, $muted-color, 30%);
+ box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  box-shadow: inset -2px 2px 41px -7px rgba(0,0,0,0.75);
+  color: rgba(2, 00, 10, .68);
+
+}
+ #table a:nth-child(2){
+ background: linear-gradient(45deg,#B6C1D4,#EC68B1);
+ border: none;
+ padding: 3px 10px;
+ border-radius: 3px;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ text-decoration: none;
+ outline: none;
+}
+
+ #table a:nth-child(3){
+ background: linear-gradient(45deg,#F1467A,#FB949E);
+ border: none;
+ padding: 3px 10px;
+ border-radius: 3px;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ text-decoration: none;
+ outline: none;
+}
+#table tbody tr:hover{
+  background-color: rgba(0, 0, 0, 0.18);
+  background: rgba(0, 0, 0, 0.18);
+}
+/*START THE Box CONTAIER HERE*/
+
+
+/*insert product design start  here*/
+.insert-data{
+  height: 100%;
+  width: 100%;
+
+
+}
+.insert-data > table{
+  margin-top: 10px;
+}
+.insert-data tr{
+}
+
+.insert-data td{
+ padding: 15px;
+ font-family: 'Righteous', cursive;
+ font-size: 20px;
+ text-align: left;
+ color: rgba(24, 101, 94);
+ text-transform: capitalize;
+ border: none;
+
+}
+
+.insert-data  input[type="file"]{
+display: none;
+}
+label{
+  color: rgba(24, 101, 94);
+  padding: 10px 5.3%;
+  border: 2px solid rgba(24, 101, 94, 0.3);
+  border-radius: 4px;
+}
+label:hover{
+cursor: pointer;
+border: 2px solid rgba(0,143,104, 0.5);
+
+}
+
+.insert-data  input[type="text"],select{
+  width: 95%;
+  border-radius: 4px;
+  background: none;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid rgba(24, 101, 94, 0.3);
+   text-transform: capitalize;
+   color: green;
+}
+.insert-data input[type="submit"]{
+  text-transform: capitalize;
+  border-radius: 4px;
+  background: none;
+  padding: 10px ;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid rgba(24, 101, 94);
+  cursor: pointer;
+  color: #fff4;
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  color: rgba(24, 101, 94);
+}
+
+.insert-data  input[type="text"]:focus{
+  border: 2px solid rgba(24, 101, 94);
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+}
+.insert-data  select{
+  width: 20%;
+  color: rgba(24, 101, 94);
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+}
+.insert-data  option{
+  background: rgba(24, 101, 94, 0.3);
+  outline: none;
+  padding: 10px;
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+  color: rgba(24, 101, 94);
+}
+
+
+/*Details Product page*/
+#view{
+  margin-top: 10px;
+}
+.product-view{
+  height: 700px;
+  width: 100%;
+  margin: auto ;
+  margin-bottom: 30px;
+}
+.product-prasantation{
+  display: flex;
+
+  height: 100%;
+}
+.product-view.product-image{
+  flex: 2;
+  position: relative;
+}
+.product-view.product-image img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.product-view.selections-box{
+  flex: 1.5;
+}
+/*Title section */
+.product-view.product-name{
+  height: 18%;
+  width: 95%;
+  border-bottom:2px solid  rgba(0, 3, 0, 0.18);
+  font-family: 'Days One', sans-serif;
+  margin-left: 5%;
+  position: relative;
+    color: white;
+}
+.product-view.title{
+  text-transform: capitalize;
+  font-size: 30px;
+    color: white;
+}
+.product-view.price{
+  bottom: 10px;
+  position: absolute;
+    font-size: 20px;
+}
+.product-view.wish{
+  bottom: 10px;
+  right: 40% ;
+  position: absolute;
+  font-size: 15px;
+}
+.product-view.wish a{
+  text-decoration: none;
+  border: 2px solid  rgba(0, 3, 0, 0.18);
+  padding: 5px 30px ;
+  display: block;
+  border-radius: 4px;
+  font-family: 'Belleza', sans-serif;
+  color: rgba(24, 101, 94, 0.9);
+}
+.product-view.product-disc{
+  margin-left: 5%;
+  height: 45%;
+  width: 95%;
+  position: relative;
+  color: white;
+}
+.product-view.d-title{
+  position: absolute;
+  top: 4%;
+  text-transform: uppercase;
+  font-family: 'Days One', sans-serif;
+    color: white;
+}
+.product-view.discription{
+  position: absolute;
+  top: 15%;
+  font-family: 'Belleza', sans-serif;
+  font-size: 18px;
+    color: white;
+
+}
+.product-view.selection-bar{
+  display: flex;
+  margin-left: 5%;
+  height: 8%;
+  width: 95%;
+  justify-content: space-around;
+}
+.product-view.sizeinfo{
+  width: 48%;
+  border: 2px solid rgba(24, 101, 94);
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+}
+.product-view.product-view.colorinfo{
+
+  width: 48%;
+  border: 2px solid rgba(24, 101, 94);
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+}
+.product-view.addcart-bar{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  height:8%;
+  width: 95%;
+}
+.product-view.quantity{
+  width: 30%;
+  margin-left: 1%;
+}
+.product-view.addcart{
+  width: 67%;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: linear-gradient(55deg,#27A47C,#6FE594,#27A47C);
+  box-shadow: 8px 4px 8px 4px rgba(24, 101, 94, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Days One', sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+}
+.product-view.addcart p{
+    text-shadow: -5px 4px 9px rgba(164,147,147,0.6);
+    text-transform: uppercase;
+    color: rgba(24, 101, 94, 0.9);
+}
+.product-view input[type="number"]{
+  height: 95%;
+  padding: 0px 20px;
+  background: none;
+  border: 2px solid rgba(24, 101, 94);
+  box-shadow: 0 0 8px 0 rgba(24, 101, 94, 0.3);
+  border-radius: 4px;
+  font-family: 'Days One', sans-serif;
+  font-size: 20px;
+  color: rgba(24, 101, 94, 0.9);
+  outline: none;
+}
+/*Category*/
+.product-view #ct{
+  margin: auto;
+}
+.product-view .Category{
+  margin-top: 5%;
+  height: 400px;
+  width: 80%;
+
+}
